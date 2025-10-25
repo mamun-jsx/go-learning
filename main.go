@@ -1,6 +1,7 @@
 // go lang by  Anisul Islam
 // https://www.youtube.com/watch?v=rh5i1rn8ddA&list=PLgH5QX0i9K3rtasmmoS_EWXdg0X-eX_x8&index=5
-package main 
+package main
+
 import "fmt"
 
 // main function
@@ -12,4 +13,16 @@ func main () {
 	// doesn't make a new line after program ends
 	fmt.Print(" I am into go language developer")
 	fmt.Print(" and I love it.")
+fmt.Println(".") // to make a new line
+	fmt.Println("--------------- Variable --------------------------")
+	// declare variable 
+	var fullName, country string 
+	var age int
+	var gpa float32
+	// variable initialization
+	fullName = "Mr Mamun"
+	age = 25
+	country = "Bangladesh"
+	gpa = 2.80
+	println("My name is " , fullName , " I am ", age , "years old. I live in ", country , " My gpa is ", gpa )
 }
